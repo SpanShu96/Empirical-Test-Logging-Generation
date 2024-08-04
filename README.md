@@ -1,1 +1,1 @@
-# Empirical-Test-Logging-Generation
+# Exploring the Effectiveness of Generating Log Statements in Test Codes
