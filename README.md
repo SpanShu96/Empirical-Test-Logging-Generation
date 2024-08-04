@@ -9,7 +9,8 @@ The dataset for pre-training, fine-tuning/instruction-tuning (train, val, and te
 In this experiment, we mainly focus only the automatic logging generation technique, [LANCE](https://github.com/antonio-mastropaolo/LANCE?tab=readme-ov-file), a T5-based approach for supporting the task of log statement generation and injection. In this case, we mainly use Google Colab to implament original LANCE and LANCE-T (a variant LANCE version for test logging generation). Please provide your own google account with Colab membership for excuting the code and also store the dataset in Google Cloud Storage.
 
 * **Pre-trained Tokenizer for LANCE**  
-  Tokenizer is important for accomodating the expanded vocabulary given by the Java programming language. To save the afford, we used the original tokenizer provied by LANCE: 
+  Tokenizer is important for accomodating the expanded vocabulary given by the Java programming language. In this case, please use the following tokenizer for LANCE or LANCE-T: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/tree/main/Tokenizer
+  
 * **Setup a Google Cloud Storage (GCS) Bucket**  
   To setup a new GCS Bucket for pre-training and fine-tuning the LANCE-based Model, please follow the original guide provided by Google: https://cloud.google.com/storage/docs/quickstart-console  
 
@@ -21,3 +22,4 @@ In this experiment, we mainly focus only the automatic logging generation techni
 
 #### How to experiment with general-/code-specific LLMs
 
+###### Regarding to GPT-3.5-Turbo/GPT-4o
