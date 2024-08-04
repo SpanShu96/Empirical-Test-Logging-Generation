@@ -14,11 +14,10 @@ In this experiment, we mainly focus only the automatic logging generation techni
   To setup a new GCS Bucket for pre-training and fine-tuning the LANCE-based Model, please follow the original guide provided by Google: https://cloud.google.com/storage/docs/quickstart-console  
 
 * **Inference for LANCE**  
-  
+  Regarding inference the original LANCE on test code, please use the following: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/tree/main/Models/LANCE
+    
 * **Pre-training/Fine-tuning for LANCE-T**  
-  
-* **Additional**  
-  
+  Regarding pre-training and fine-tuning the LANCE-T, please use the following: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/tree/main/Models/LANCE-T
 
 #### How to experiment with general-/code-specific LLMs
 
