@@ -2,7 +2,17 @@
 
 In this study, we empirically investigate various logging-specific PLMs and general-/code-specific LLMs with different learning strategies (e.g., in-context leraning, instruction tuning) for generating test log statements. This is a replication package for our empirical study.
 
-## Envirnoment setup (Local)
+## Envirnoment Requirement (Local)
+* Python 3.7.7
+* PyTorch 1.13.1+cu117
+* Sciki-learn 1.2.2
+* Transformers 4.37.0.dev0
+* TRL 0.7.11
+* Numpy 1.18.1
+* Pandas 1.3.0
+* Matplotlib 3.4.2
+* Openai 1.2.3
+* Tiktoken 0.7.0
 
 ## Dataset
 The dataset for pre-training, fine-tuning/instruction-tuning (train, val, and test set), and in-context learning can be found as this link:  https://drive.google.com/drive/folders/1FZDgEmfvIMGZ8llL43fv1BoqreYc_PNV?usp=sharing
