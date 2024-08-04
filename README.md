@@ -23,3 +23,15 @@ In this experiment, we mainly focus only the automatic logging generation techni
 #### How to experiment with general-/code-specific LLMs
 
 ###### Regarding to GPT-3.5-Turbo/GPT-4o
+For running the closed-source LLMs, you should prepare your own OpenAI account and API KEY.
+* **In-context Learning**
+  
+* **Insturction Tuning**
+  
+  
+###### Regarding to Code Llama  
+For running the open-source LLMs, we recommend using GPU with 48 GB (at least) up memory for training and testing, since they are computing intensive.
+* **In-context Learning**
+  
+* **Insturction Tuning**
+  
