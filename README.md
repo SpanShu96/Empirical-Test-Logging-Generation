@@ -11,7 +11,8 @@ In this experiment, we mainly focus only the automatic logging generation techni
 * **Pre-trained Tokenizer for LANCE**  
   Tokenizer is important for accomodating the expanded vocabulary given by the Java programming language. To save the afford, we used the original tokenizer provied by LANCE: 
 * **Setup a Google Cloud Storage (GCS) Bucket**  
-  
+  To setup a new GCS Bucket for pre-training and fine-tuning the LANCE-based Model, please follow the original guide provided by Google: https://cloud.google.com/storage/docs/quickstart-console  
+
 * **Inference for LANCE**  
   
 * **Pre-training/Fine-tuning for LANCE-T**  
