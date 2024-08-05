@@ -61,5 +61,23 @@ In this experiment, we mainly focus on two categories of the automatic logging g
   Under [Miscellaneous](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/tree/main/Miscellaneous), you can find the additional script used for the data analysis in our study.
   
 ## Results
+**1) The performance of PLMs on Test Log Statement Generation**
+<img src="./Figures/PerformancePLMs.png" alt="drawing" width="800">
 
-  
+--- ---
+
+**2) The performance of LLMs on Test Log Statement Generation**
+<img src="./Figures/PerformanceLLMs.png" alt="drawing" width="800">
+
+--- ---
+
+**3) The performance of Each Log Level Prediction (F1-score), Performance of Log Position Predictions by Each Log Level (Accuracy), and Distance from Target Log Level and Position, across studied PLMs and LLMs**
+<img src="./Figures/BeyondAccuracyLogLevelPosition.png" alt="drawing" width="800">
+
+--- ---
+
+**4) Performance of Test Log Statement Generation on 7 Machine Translation Metrics across Studied PLMs and LLMs**
+<img src="./Figures/BeyondAccuracyLogMessage.png" alt="drawing" width="800">
+
+--- ---
+
