@@ -41,14 +41,14 @@ For running the closed-source LLMs, you should prepare your own OpenAI account a
   Regarding applying simple prompt/role prompt/instruction prompt on GPT-3.5-Turbo/GPT-4o, please use [this code for GPT-3.5-Turbo](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-3.5-Turbo/GPT-3.5-Turbo_ICL.ipynb) and [this code for GPT-4o](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-4o/GPT-4o_ICL.ipynb).
 
 * **Insturction Tuning**  
-  Regarding fine-tune GPT-3.5-Turbo with instruction, please use the following: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-3.5-Turbo/GPT-3.5-Turbo_Insturction-Tuning.ipynb
+  Regarding fine-tuning GPT-3.5-Turbo with instruction, please use the following: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-3.5-Turbo/GPT-3.5-Turbo_Insturction-Tuning.ipynb
 
 #### Regarding to Code Llama  
 For running the open-source LLMs, we recommend using GPU with 48 GB (at least) up memory for training and testing, since they are computing intensive.
-* **In-context Learning**
-  To update
-* **Insturction Tuning**
-  To update
+* **In-context Learning**  
+  Regarding applying simple prompt/role prompt/instruction prompt on Code Llama, please use the following: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/CodeLlama/CodeLlama_ICL.ipynb
+* **Insturction Tuning**  
+  Regarding fine-tuning Code Llama with instruction, please use the following: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/CodeLlama/CodeLlama_Instruction-Tuning.ipynb
 
 ## Additional
   Under [Miscellaneous](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/tree/main/Miscellaneous), you can find the additional script used for the data analysis in our study.
