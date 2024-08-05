@@ -13,6 +13,7 @@ In this study, we empirically investigate various logging-specific PLMs and gene
 * Matplotlib 3.4.2
 * Openai 1.2.3
 * Tiktoken 0.7.0
+* Tqdm 4.66.5
 
 ## Dataset
 The dataset for pre-training, fine-tuning/instruction-tuning (train, val, and test set), and in-context learning can be found as this link:  https://drive.google.com/drive/folders/1FZDgEmfvIMGZ8llL43fv1BoqreYc_PNV?usp=sharing
