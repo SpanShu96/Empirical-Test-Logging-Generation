@@ -37,7 +37,7 @@ In this experiment, we mainly focus only the automatic logging generation techni
 #### Regarding to GPT-3.5-Turbo/GPT-4o
 For running the closed-source LLMs, you should prepare your own OpenAI account and API KEY.
 * **In-context Learning**  
-  Regarding applying simple prompt/role prompt/instruction prompt on GPT-3.5-Turbo, please use [this code for GPT-3.5-Turbo](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-3.5-Turbo/GPT-3.5-Turbo_ICL.ipynb) and this code for [GPT-4o](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-4o/GPT-4o_ICL.ipynb).
+  Regarding applying simple prompt/role prompt/instruction prompt on GPT-3.5-Turbo/GPT-4o, please use [this code for GPT-3.5-Turbo](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-3.5-Turbo/GPT-3.5-Turbo_ICL.ipynb) and this code for [GPT-4o](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-4o/GPT-4o_ICL.ipynb).
 
 * **Insturction Tuning**  
   Regarding fine-tune GPT-3.5-Turbo with instruction, please use the following: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-3.5-Turbo/GPT-3.5-Turbo_Insturction-Tuning.ipynb
