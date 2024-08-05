@@ -18,10 +18,14 @@ In this study, we empirically investigate various logging-specific PLMs and gene
 * Tqdm 4.66.5
 
 ## Dataset
+<img src="./Figures/DatasetBuilding.png" alt="drawing" width="800">
+
 The dataset for pre-training, fine-tuning/instruction-tuning (train, val, and test set), and in-context learning can be found as this link:  https://drive.google.com/drive/folders/1FZDgEmfvIMGZ8llL43fv1BoqreYc_PNV?usp=sharing
 
 ## How to experiment with logging-specific PLMs
-In this experiment, we mainly focus only the automatic logging generation technique, [LANCE](https://github.com/antonio-mastropaolo/LANCE?tab=readme-ov-file), a T5-based approach for supporting the task of log statement generation and injection. In this case, we mainly use Google Colab to implament original LANCE and LANCE-T (a variant LANCE version for test logging generation). Please provide your own google account with Colab membership for excuting the code and also store the dataset in Google Cloud Storage.
+<img src="./Figures/ProcedurePLM.png" alt="drawing" width="800">
+
+In this experiment, we mainly focus on the automatic logging generation technique, [LANCE](https://github.com/antonio-mastropaolo/LANCE?tab=readme-ov-file), a T5-based approach for supporting the task of log statement generation and injection. In this case, we mainly use Google Colab to implament original LANCE and LANCE-T (a variant LANCE version for test logging generation). Please provide your own google account with Colab membership for excuting the code and also store the dataset in Google Cloud Storage.
 
 * **Pre-trained Tokenizer for LANCE/LANCE-T**  
   Tokenizer is important for accomodating the expanded vocabulary given by the Java programming language. In this case, please use the following tokenizer for LANCE or LANCE-T: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/tree/main/Tokenizer
@@ -36,9 +40,11 @@ In this experiment, we mainly focus only the automatic logging generation techni
   Regarding pre-training and fine-tuning the LANCE-T, please use the following: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/tree/main/Models/LANCE-T
 
 ## How to experiment with general-/code-specific LLMs
+<img src="./Figures/ProcedureLLM.png" alt="drawing" width="800">
 
-#### Regarding to GPT-3.5-Turbo/GPT-4o
-For running the closed-source LLMs, you should prepare your own OpenAI account and API KEY.
+In this experiment, we mainly focus on two categories of the automatic logging generation technique: (1) general-specific LLMs (GPT-3.5-Turbo/GPT-4o), and (2) code-specific LLMs (Code Llama). For running the general-specific LLMs, you should prepare your own OpenAI account and API KEY. For running the code-specific LLMs, we recommend using GPU with 48 GB (at least) up memory for training and testing, since they are computing intensive.
+
+#### Regarding to GPT-3.5-Turbo/GPT-4o  
 * **In-context Learning**  
   Regarding applying simple prompt/role prompt/instruction prompt on GPT-3.5-Turbo/GPT-4o, please use [this code for GPT-3.5-Turbo](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-3.5-Turbo/GPT-3.5-Turbo_ICL.ipynb) and [this code for GPT-4o](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-4o/GPT-4o_ICL.ipynb).
 
@@ -46,7 +52,6 @@ For running the closed-source LLMs, you should prepare your own OpenAI account a
   Regarding fine-tuning GPT-3.5-Turbo with instruction, please use the following: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-3.5-Turbo/GPT-3.5-Turbo_Insturction-Tuning.ipynb
 
 #### Regarding to Code Llama  
-For running the open-source LLMs, we recommend using GPU with 48 GB (at least) up memory for training and testing, since they are computing intensive.
 * **In-context Learning**  
   Regarding applying simple prompt/role prompt/instruction prompt on Code Llama, please use the following: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/CodeLlama/CodeLlama_ICL.ipynb
 * **Insturction Tuning**  
