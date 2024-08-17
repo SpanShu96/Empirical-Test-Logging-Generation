@@ -81,3 +81,8 @@ In this experiment, we mainly focus on two categories of the automatic logging g
 
 --- ---
 
+## Appendix
+**1) The evaluation results of 16 variant models of LANCE-T**
+<img src="./Figures/Evaluation Results of 16 Models.png" alt="drawing" width="800">
+
+--- ---
