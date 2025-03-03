@@ -48,7 +48,7 @@ In this experiment, we mainly focus on two categories of the automatic logging g
 * **In-context Learning**  
   Regarding applying simple prompt/role prompt/instruction prompt on GPT-3.5-Turbo/GPT-4o, please use [this code for GPT-3.5-Turbo](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-3.5-Turbo/GPT-3.5-Turbo_ICL.ipynb) and [this code for GPT-4o](https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-4o/GPT-4o_ICL.ipynb).
   Here is a example of role prompt:
-  <img src="./Figures/PromptExample.png" alt="drawing" width="400">
+  <img src="./Figures/PromptExample_new.png" alt="drawing" width="400">
 
 * **Insturction Tuning**  
   Regarding fine-tuning GPT-3.5-Turbo with instruction, please use the following: https://github.com/SpanShu96/Empirical-Test-Logging-Generation/blob/main/Models/GPT-3.5-Turbo/GPT-3.5-Turbo_Insturction-Tuning.ipynb
